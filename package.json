@@ -4,8 +4,8 @@
   "description": "a rollup copy plugin",
   "license": "MIT",
   "author": "weifeiyue",
-  "homepage": "https://github.com/weifeiyue/rollup-plugin-copy#README",
-  "bugs": "https://github.com/weifeiyue/rollup-plugin-copy/issues",
+  "homepage": "https://github.com/weifeiyue/rollup-plugin-deepcopy#README",
+  "bugs": "https://github.com/weifeiyue/rollup-plugin-deepcopy/issues",
   "main": "./dist/cjs/index.js",
   "module": "./dist/es/index.js",
   "exports": {

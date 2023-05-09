@@ -1,0 +1,53 @@
+{
+  "name": "rollup-plugin-deepcopy",
+  "version": "1.0.0",
+  "description": "a rollup copy plugin",
+  "license": "MIT",
+  "author": "weifeiyue",
+  "homepage": "https://github.com/weifeiyue/rollup-plugin-copy#README",
+  "bugs": "https://github.com/weifeiyue/rollup-plugin-copy/issues",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "exports": {
+    "types": "./types/index.d.ts",
+    "import": "./dist/es/index.js",
+    "default": "./dist/cjs/index.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.map",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "copy"
+  ],
+  "peerDependencies": {
+    "rollup": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "rollup": {
+      "optional": true
+    }
+  },
+  "types": "./types/index.d.ts",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/fs-extra": "^11.0.1",
+    "rollup": "^3.21.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.1.1"
+  }
+}
